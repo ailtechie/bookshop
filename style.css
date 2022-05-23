@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: #f7e2a0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0; 
+    padding: 0;
+    margin: 20px;    
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    color: #332d1a;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul, li, ol {
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #332d1a;
+}
+
+a:hover, a:active {
+    color: #f8bd1b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    /* background-color: blue; */
+}
+
+h1 {
+    font-size: 20px;
+}
+
+a > img {
+    width: auto;
+    height: 100px;
+}
+
+nav > ul {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.catalogue-header {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.catalogue-wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #9b894f;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 30px;
+    border: 1px solid #332d1a;
+    border-radius: 40px;
+}
+
+.book-card {
+    width: 400px;
+    height: 250px;
+    display: flex;
+
+
+    border: 1px solid #332d1a;
+    background-color: yellow;
+}
+.book-card > img {
+    width: auto;
+    height: auto;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+}
+
+.more {
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px 30px;
+    height: 150px;
+}
+
+.github > ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rss {
+    gap: 20px;
+}
